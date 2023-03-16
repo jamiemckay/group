@@ -40,7 +40,7 @@
     let attempts=0;
     let numClicks=0;
 
-    fetch('https://raw.githubusercontent.com/jamiemckay/login-system/master/story.json')
+    fetch('https://raw.githubusercontent.com/jamiemckay/group/main/GROUP_TEST/story.json')
           .then(function(response) {
             return response.json();
           })
