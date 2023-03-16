@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pirate Adventure Game</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="game.js"></script>
+s
+
+  </head>
+  <body>
+<audio id="background-music" src="audio/pirate-music.mp3" ></audio>
+    <div class="header">
+      <h1 id="test">Pirate Text Adventure</h1>
+    </div>
+
+    <div id="signUp-section">
+      <h1>Player Info</h1>
+      <form name="playerForm" onsubmit="return signUp(event)" novalidate>
+        <label for="txtForm">First Name: </label>
+        <input type="text" id="firstName" name="firstName" placeholder="Ex. Jamie" >
+        <label for="txtForm">Last Name: </label>
+        <input type="text" id="lastName" name="lastName" placeholder="Ex. Mckay" >
+        <label for="txtForm">Age: </label>
+        <input type="number" id="age" name="age" placeholder="Ex. 18" >
+        <input type="submit" id="btnSubmit" value="Start Game" />
+      </form>
+
+    </div>
+
+    <div id="story-screen">
+      
+
+        <p id="timer"></p>
+      <p id="quest"></p>
+      <img id="story-image" src="imgs/story1.jpeg" alt="Story image">
+
+      <button id="option1"></button>
+      <button id="option2"></button>
+    </div>
+
+    <div id="end-screen">
+        <h1>YOU LOSE</h1>
+        <!--Button to try again, count how many times they click a button/how many tries.  Also need a reason for each end story.-->
+        <p id="end-reason"></p>
+        <button id="try-again-button" onclick="Adventure1('start')">Try Again</button>
+
+    </div>
+
+    <div id="won-screen"> 
+        <h1>CONGRATULATIONS</h1>
+        <table>
+          <tr>
+            <td>Time taken:</td>
+            <td id="time-taken"></td>
+          </tr>
+          <tr>
+            <td>Number of clicks:</td>
+            <td id="num-clicks"></td>
+          </tr>
+          <tr>
+            <td>Number of attempts:</td>
+            <td id="num-attempts"></td>
+          </tr>
+        </table>
+      </div>
+    
+  </body>
+</html>

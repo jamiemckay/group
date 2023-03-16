@@ -1,0 +1,40 @@
+{
+  "start": {
+    "story": "You are currently sailing the 7 seas when you come across an island.  What do you want to do?",
+    "option1": {
+      "option": "Go to island",
+      "location": "find_map"
+    },
+    "option2": {
+      "option": "Keep on sailing",
+      "location": "end",
+      "reason": "Your ship hit an iceberg and all of your crew died"
+    },
+    "story_img": "imgs/story1.jpeg"
+  },
+  "find_map": {
+    "story": "On the island you find a map, would you like to collect it?",
+    "option1": {
+      "option": "Yes",
+      "location": "treasure"
+    },
+    "option2": {
+      "option": "No",
+      "location": "treasure"
+    },
+    "story_img": "imgs/story2.jpeg"
+  },
+  "treasure": {
+    "story": "There is treasure on the island, Where is it located?",
+    "option1": {
+      "option": "Waterfall",
+      "location": "won"
+    },
+    "option2": {
+      "option": "Buried underground",
+      "location": "end",
+      "reason": "You needed the map all captains know that"
+    },
+    "story_img": "imgs/story3.jpeg"
+  }
+}
