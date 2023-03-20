@@ -1,61 +1,61 @@
 {
-  "start": {
-    "story": "Captain {name}, You are currently sailing the 7 seas when you come across an island.  What do you want to do?",
-    "option1": {
-      "option": "Go to island",
-      "location": "find_map"
-    },
-    "option2": {
-      "option": "Keep on sailing",
-      "location": "end"
-    },
-    "story_img": "imgs/story1.jpeg",
-    "reason": "Your ship hit an iceberg and all of your crew died"
-  },
+	"start": {
+		"story": "Captain {name}, You are currently sailing the 7 seas when you come across an island.  What do you want to do?",
+		"option1": {
+			"option": "Go to island",
+			"location": "find_map"
+		},
+		"option2": {
+			"option": "Keep on sailing",
+			"location": "end"
+		},
+		"story_img": "imgs/story1.jpeg",
+		"reason": "Your ship hit an iceberg and all of your crew died"
+	},
 
-  "find_map": {
-    "story": "Captain {name}, On the island you find a map, would you like to collect it?",
-    "option1": {
-      "option": "Yes",
-      "location": "treasure"
-    },
-    "option2": {
-      "option": "No",
-      "location": "treasure"
-    },
-    "story_img": "imgs/story2.jpeg",
-    "reason": ""
-  },
+	"find_map": {
+		"story": "Captain {name}, On the island you find a map, would you like to collect it?",
+		"option1": {
+			"option": "Yes",
+			"location": "treasure"
+		},
+		"option2": {
+			"option": "No",
+			"location": "treasure"
+		},
+		"story_img": "imgs/story2.jpeg",
+		"reason": ""
+	},
 
-  "treasure": {
-    "story": "Captain {name}, There is treasure on the island, Where is it located?",
-    "option1": {
-      "option": "Waterfall",
-      "location": "coin-flip"
-    },
-    "option2": {
-      "option": "Buried underground",
-      "location": "end"
-    },
-    "story_img": "imgs/story3.jpeg",
-    "reason": "You needed the map all captains know that"
-  },
+	"treasure": {
+		"story": "Captain {name}, There is treasure on the island, Where is it located?",
+		"option1": {
+			"option": "Waterfall",
+			"location": "coin-flip"
+		},
+		"option2": {
+			"option": "Buried underground",
+			"location": "end"
+		},
+		"story_img": "imgs/story3.jpeg",
+		"reason": "You needed the map all captains know that"
+	},
 
-  "chest": {
-    "story": "Captain {name}, There is a treasure chest, to access the treasure, you must enter the correct code (1-6)",
-    "story_img": "imgs/story3.jpeg",
-    "reason": "You lost the treasure for your crew."
-  },
-  
-  "coin-flip": {
-    "story": "Captain {name}, You got in an argument with another pirate.  A coin has been flipped to decide whether you fight.  Pick a side.",
-    "option1": {
-      "option": "Heads",
-    },
-    "option2": {
-      "option": "Tails",
-    },
-    "story_img": "imgs/story3.jpeg",
-    "reason": "You picked the wrong side."
-  }
+	"chest": {
+		"story": "Captain {name}, There is a treasure chest, to access the treasure, you must enter the correct code (1-6)",
+		"story_img": "imgs/story3.jpeg",
+		"reason": "You lost the treasure for your crew."
+	},
+
+	"coin-flip": {
+		"story": "Captain {name}, You got in an argument with another pirate.  A coin has been flipped to decide whether you fight.  Pick a side.",
+		"option1": {
+			"option": "Heads"
+		},
+		"option2": {
+			"option": "Tails"
+		},
+		"story_img": "imgs/story3.jpeg",
+		"reason": "You picked the wrong side."
+	}
 }
