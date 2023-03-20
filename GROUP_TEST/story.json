@@ -39,5 +39,12 @@
     },
     "story_img": "imgs/story3.jpeg",
     "reason": "You needed the map all captains know that"
+  },
+
+  "chest": {
+    "story": "Captain {name}, There is a treasure chest, to access the treasure, you must enter the correct code (1-6)",
+    "story_img": "imgs/story3.jpeg",
+    "reason": "You lost the treasure for your crew."
   }
 }
+
