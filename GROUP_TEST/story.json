@@ -31,7 +31,7 @@
 		"story": "Captain {name}, There is treasure on the island, Where is it located?",
 		"option1": {
 			"option": "Waterfall",
-			"location": "coin-flip"
+			"location": "coinToss"
 		},
 		"option2": {
 			"option": "Buried underground",
