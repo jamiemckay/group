@@ -35,7 +35,7 @@
 		},
 		"option2": {
 			"option": "Buried underground",
-			"location": "end"
+			"location": "coinToss"
 		},
 		"story_img": "imgs/story3.jpeg",
 		"reason": "You needed the map all captains know that"
