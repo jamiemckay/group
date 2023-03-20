@@ -51,11 +51,11 @@
 		"story": "Captain {name}, You got in an argument with another pirate.  A coin has been flipped to decide whether you fight.  Pick a side.",
 		"option1": {
 			"option": "Heads",
-			location: ""
+			"location": ""
 		},
 		"option2": {
 			"option": "Tails",
-			location: ""
+			"location": ""
 		},
 		"story_img": "imgs/story3.jpeg",
 		"reason": "You picked the wrong side."
