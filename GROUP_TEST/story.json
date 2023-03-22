@@ -43,7 +43,7 @@
 
 	"chest": {
 		"story": "Captain {name}, There is a treasure chest, to access the treasure, you must enter the correct code (1-6)",
-		"story_img": "imgs/story3.jpeg",
+		"story_img": "imgs/story4.jpeg",
 		"reason": "You lost the treasure for your crew."
 	},
 
@@ -57,7 +57,7 @@
 			"option": "Tails",
 			"location": ""
 		},
-		"story_img": "imgs/story3.jpeg",
+		"story_img": "imgs/story5.jpeg",
 		"reason": "You picked the wrong side."
 	}
 }
