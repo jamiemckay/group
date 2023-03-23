@@ -17,11 +17,11 @@
 		"story": "Captain {name}, On the island you find a map, would you like to collect it?",
 		"option1": {
 			"option": "Yes",
-			"location": "treasure"
+			"location": "treasureMap"
 		},
 		"option2": {
 			"option": "No",
-			"location": "treasure"
+			"location": "treasureMap"
 		},
 		"story_img": "imgs/story2.jpeg",
 		"reason": ""
