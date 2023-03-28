@@ -10,7 +10,8 @@
 			"location": "end"
 		},
 		"story_img": "imgs/barman_raw.jpg",
-		"reason": "You died of drink."
+		"reason": "You died of drink.",
+		"option-type": "2"
 	},
 
 	"find_map": {
@@ -24,7 +25,8 @@
 			"location": "treasureMap"
 		},
 		"story_img": "imgs/pirateship_battle_abcd.jpg",
-		"reason": ""
+		"reason": "",
+		"option-type": "2"
 	},
 
 	"treasureMap": {
@@ -38,13 +40,15 @@
 			"location": "end"
 		},
 		"story_img": "imgs/tresure_island_finished.png",
-		"reason": "You needed the map all captains know that"
+		"reason": "You needed the map all captains know that",
+		"option-type": "2"
 	},
 
 	"chest": {
 		"story": "Captain {name}, There is a treasure chest, to access the treasure, you must enter the correct code (1-6)",
 		"story_img": "imgs/story4.jpeg",
-		"reason": "You lost the treasure for your crew."
+		"reason": "You lost the treasure for your crew.",
+		"option-type": "num"
 	},
 
 	"coinToss": {
@@ -58,7 +62,8 @@
 			"location": ""
 		},
 		"story_img": "imgs/story5.png",
-		"reason": "You picked the wrong side."
+		"reason": "You picked the wrong side.",
+		"option-type": "2"
 	},
 	
 	"treasureIsland": {
@@ -80,6 +85,7 @@
 			"location": "end"
 		},
 		"story_img": "imgs/story6.jpeg",
-		"reason": "You needed the map all captains know that"
+		"reason": "You needed the map all captains know that",
+		"option-type": "4"
 	}
 }
