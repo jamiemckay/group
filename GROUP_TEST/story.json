@@ -1,20 +1,20 @@
 {
 	"start": {
-		"story": "Captain {name}, You are currently sailing the 7 seas when you come across an island.  What do you want to do?",
+		"story": "Captain {name}, You are talking to bar man.  What do you want to do?",
 		"option1": {
-			"option": "Go to island",
+			"option": "Go on adventure",
 			"location": "find_map"
 		},
 		"option2": {
-			"option": "Keep on sailing",
+			"option": "Drink",
 			"location": "end"
 		},
-		"story_img": "imgs/story1.jpeg",
-		"reason": "Your ship hit an iceberg and all of your crew died"
+		"story_img": "imgs/barman_raw.jpg",
+		"reason": "You died of drink."
 	},
 
 	"find_map": {
-		"story": "Captain {name}, On the island you find a map, would you like to collect it?",
+		"story": "Captain {name}, On you adventure you find a map, would you like to collect it?",
 		"option1": {
 			"option": "Yes",
 			"location": "treasureMap"
@@ -23,7 +23,7 @@
 			"option": "No",
 			"location": "treasureMap"
 		},
-		"story_img": "imgs/story2.jpeg",
+		"story_img": "imgs/pirateship_battle_abcd.jpg",
 		"reason": ""
 	},
 
@@ -37,7 +37,7 @@
 			"option": "Buried underground",
 			"location": "end"
 		},
-		"story_img": "imgs/story3.jpeg",
+		"story_img": "imgs/tresure_island_finished.png",
 		"reason": "You needed the map all captains know that"
 	},
 
